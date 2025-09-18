@@ -6,6 +6,8 @@
 *.dylib
 *.yaml~
 *.*~
+*.un~
+.gitignore~
 
 # Test binary, build with `go test -c`
 *.test
@@ -50,5 +52,9 @@ yarn-error.log*
 
 # local config
 config.yaml
-
+.claude
 .claude/
+/.claude
+node_modules
+dist
+CLAUDE.md
