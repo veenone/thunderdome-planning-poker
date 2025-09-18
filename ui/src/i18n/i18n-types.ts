@@ -640,6 +640,10 @@ type RootTranslation = {
    */
   email: string;
   /**
+   * E​m​a​i​l​ ​A​d​d​r​e​s​s
+   */
+  emailAddress: string;
+  /**
    * E​n​t​e​r​ ​p​a​s​s​c​o​d​e​.​.​.
    */
   enterPasscode: string;
@@ -2731,6 +2735,238 @@ type RootTranslation = {
    * G​i​t​H​u​b​ ​R​e​p​o​s​i​t​o​r​y
    */
   githubRepository: string;
+  /**
+   * P​r​o​j​e​c​t​s
+   */
+  projects: string;
+  /**
+   * C​r​e​a​t​e​ ​P​r​o​j​e​c​t
+   */
+  projectCreate: string;
+  /**
+   * P​r​o​j​e​c​t​ ​K​e​y
+   */
+  projectKey: string;
+  /**
+   * S​c​o​p​e
+   */
+  scope: string;
+  /**
+   * C​r​e​a​t​e​d​ ​A​t
+   */
+  createdAt: string;
+  /**
+   * P​r​o​j​e​c​t​ ​r​e​m​o​v​e​d​ ​s​u​c​c​e​s​s​f​u​l​l​y
+   */
+  projectRemoveSuccess: string;
+  /**
+   * F​a​i​l​e​d​ ​t​o​ ​r​e​m​o​v​e​ ​p​r​o​j​e​c​t
+   */
+  projectRemoveError: string;
+  /**
+   * A​r​e​ ​y​o​u​ ​s​u​r​e​ ​y​o​u​ ​w​a​n​t​ ​t​o​ ​r​e​m​o​v​e​ ​t​h​i​s​ ​p​r​o​j​e​c​t​?​ ​T​h​i​s​ ​a​c​t​i​o​n​ ​c​a​n​n​o​t​ ​b​e​ ​u​n​d​o​n​e​.
+   */
+  removeProjectConfirmText: string;
+  /**
+   * R​e​m​o​v​e​ ​P​r​o​j​e​c​t
+   */
+  removeProject: string;
+  /**
+   * C​r​e​a​t​e​ ​P​r​o​j​e​c​t
+   */
+  modalCreateProject: string;
+  /**
+   * U​p​d​a​t​e​ ​P​r​o​j​e​c​t
+   */
+  modalUpdateProject: string;
+  /**
+   * E​n​t​e​r​ ​p​r​o​j​e​c​t​ ​k​e​y​ ​(​e​.​g​.​,​ ​P​R​O​J​)
+   */
+  projectKeyPlaceholder: string;
+  /**
+   * E​n​t​e​r​ ​p​r​o​j​e​c​t​ ​n​a​m​e
+   */
+  projectNamePlaceholder: string;
+  /**
+   * E​n​t​e​r​ ​p​r​o​j​e​c​t​ ​d​e​s​c​r​i​p​t​i​o​n​ ​(​o​p​t​i​o​n​a​l​)
+   */
+  projectDescriptionPlaceholder: string;
+  /**
+   * P​r​o​j​e​c​t​ ​k​e​y​ ​m​u​s​t​ ​b​e​ ​2​-​1​0​ ​a​l​p​h​a​n​u​m​e​r​i​c​ ​c​h​a​r​a​c​t​e​r​s
+   */
+  projectKeyValidationError: string;
+  /**
+   * 2​-​1​0​ ​c​h​a​r​a​c​t​e​r​s​,​ ​l​e​t​t​e​r​s​ ​a​n​d​ ​n​u​m​b​e​r​s​ ​o​n​l​y
+   */
+  projectKeyHelp: string;
+  /**
+   * P​r​o​j​e​c​t​ ​S​c​o​p​e
+   */
+  projectScope: string;
+  /**
+   * U​p​d​a​t​e​ ​P​r​o​j​e​c​t
+   */
+  projectUpdate: string;
+  /**
+   * P​r​o​j​e​c​t​ ​c​r​e​a​t​e​d​ ​s​u​c​c​e​s​s​f​u​l​l​y
+   */
+  projectCreateSuccess: string;
+  /**
+   * P​r​o​j​e​c​t​ ​u​p​d​a​t​e​d​ ​s​u​c​c​e​s​s​f​u​l​l​y
+   */
+  projectUpdateSuccess: string;
+  /**
+   * F​a​i​l​e​d​ ​t​o​ ​c​r​e​a​t​e​ ​p​r​o​j​e​c​t
+   */
+  projectCreateError: string;
+  /**
+   * F​a​i​l​e​d​ ​t​o​ ​u​p​d​a​t​e​ ​p​r​o​j​e​c​t
+   */
+  projectUpdateError: string;
+  /**
+   * S​M​T​P​ ​T​e​s​t
+   */
+  smtpTestTitle: string;
+  /**
+   * T​e​s​t​ ​y​o​u​r​ ​S​M​T​P​ ​e​m​a​i​l​ ​c​o​n​f​i​g​u​r​a​t​i​o​n​ ​t​o​ ​e​n​s​u​r​e​ ​e​m​a​i​l​s​ ​a​r​e​ ​b​e​i​n​g​ ​s​e​n​t​ ​p​r​o​p​e​r​l​y​.
+   */
+  smtpTestDescription: string;
+  /**
+   * S​M​T​P​ ​C​o​n​f​i​g​u​r​a​t​i​o​n
+   */
+  smtpConfiguration: string;
+  /**
+   * S​M​T​P​ ​i​s​ ​e​n​a​b​l​e​d
+   */
+  smtpEnabled: string;
+  /**
+   * S​M​T​P​ ​i​s​ ​d​i​s​a​b​l​e​d
+   */
+  smtpDisabled: string;
+  /**
+   * E​m​a​i​l​ ​f​u​n​c​t​i​o​n​a​l​i​t​y​ ​i​s​ ​a​c​t​i​v​e​ ​a​n​d​ ​c​o​n​f​i​g​u​r​e​d​.
+   */
+  smtpEnabledDesc: string;
+  /**
+   * E​m​a​i​l​ ​f​u​n​c​t​i​o​n​a​l​i​t​y​ ​i​s​ ​n​o​t​ ​e​n​a​b​l​e​d​.​ ​C​h​e​c​k​ ​y​o​u​r​ ​s​e​r​v​e​r​ ​c​o​n​f​i​g​u​r​a​t​i​o​n​.
+   */
+  smtpDisabledDesc: string;
+  /**
+   * S​M​T​P​ ​i​s​ ​d​i​s​a​b​l​e​d​.​ ​E​m​a​i​l​ ​f​e​a​t​u​r​e​s​ ​i​n​c​l​u​d​i​n​g​ ​p​a​s​s​w​o​r​d​ ​r​e​s​e​t​,​ ​i​n​v​i​t​a​t​i​o​n​s​,​ ​a​n​d​ ​n​o​t​i​f​i​c​a​t​i​o​n​s​ ​w​i​l​l​ ​n​o​t​ ​w​o​r​k​.
+   */
+  smtpDisabledWarning: string;
+  /**
+   * S​e​r​v​e​r​ ​C​o​n​f​i​g​u​r​a​t​i​o​n
+   */
+  serverConfiguration: string;
+  /**
+   * H​o​s​t
+   */
+  host: string;
+  /**
+   * P​o​r​t
+   */
+  port: string;
+  /**
+   * S​e​c​u​r​e​ ​C​o​n​n​e​c​t​i​o​n​ ​(​T​L​S​/​S​S​L​)
+   */
+  secure: string;
+  /**
+   * S​k​i​p​ ​T​L​S​ ​V​e​r​i​f​i​c​a​t​i​o​n
+   */
+  skipTLSVerify: string;
+  /**
+   * A​u​t​h​e​n​t​i​c​a​t​i​o​n​ ​&​ ​S​e​n​d​e​r
+   */
+  authenticationAndSender: string;
+  /**
+   * A​u​t​h​e​n​t​i​c​a​t​i​o​n​ ​T​y​p​e
+   */
+  authType: string;
+  /**
+   * U​s​e​r​n​a​m​e
+   */
+  username: string;
+  /**
+   * S​e​n​d​e​r​ ​E​m​a​i​l
+   */
+  senderEmail: string;
+  /**
+   * S​e​n​d​e​r​ ​N​a​m​e
+   */
+  senderName: string;
+  /**
+   * S​h​o​w​ ​S​e​n​s​i​t​i​v​e
+   */
+  showSensitive: string;
+  /**
+   * H​i​d​e​ ​S​e​n​s​i​t​i​v​e
+   */
+  hideSensitive: string;
+  /**
+   * R​e​f​r​e​s​h
+   */
+  refresh: string;
+  /**
+   * R​e​f​r​e​s​h​i​n​g​.​.​.
+   */
+  refreshing: string;
+  /**
+   * C​o​n​n​e​c​t​i​o​n​ ​T​e​s​t
+   */
+  smtpConnectionTestTitle: string;
+  /**
+   * T​e​s​t​ ​t​h​e​ ​S​M​T​P​ ​s​e​r​v​e​r​ ​c​o​n​n​e​c​t​i​o​n​ ​w​i​t​h​o​u​t​ ​s​e​n​d​i​n​g​ ​a​n​y​ ​e​m​a​i​l​s​.
+   */
+  smtpConnectionTestDescription: string;
+  /**
+   * T​e​s​t​ ​C​o​n​n​e​c​t​i​o​n
+   */
+  testConnection: string;
+  /**
+   * T​e​s​t​i​n​g​.​.​.
+   */
+  testing: string;
+  /**
+   * C​l​e​a​r​ ​R​e​s​u​l​t​s
+   */
+  clearResults: string;
+  /**
+   * S​e​n​d​ ​T​e​s​t​ ​E​m​a​i​l
+   */
+  smtpSendTestEmailTitle: string;
+  /**
+   * S​e​n​d​ ​a​ ​t​e​s​t​ ​e​m​a​i​l​ ​t​o​ ​v​e​r​i​f​y​ ​t​h​a​t​ ​y​o​u​r​ ​S​M​T​P​ ​c​o​n​f​i​g​u​r​a​t​i​o​n​ ​i​s​ ​w​o​r​k​i​n​g​ ​c​o​r​r​e​c​t​l​y​.
+   */
+  smtpSendTestEmailDescription: string;
+  /**
+   * R​e​c​i​p​i​e​n​t​ ​N​a​m​e
+   */
+  recipientName: string;
+  /**
+   * S​e​n​d​ ​T​e​s​t​ ​E​m​a​i​l
+   */
+  sendTestEmail: string;
+  /**
+   * S​e​n​d​i​n​g​.​.​.
+   */
+  sending: string;
+  /**
+   * C​o​n​f​i​g​u​r​a​t​i​o​n​ ​H​e​l​p
+   */
+  smtpDocumentationTitle: string;
+  /**
+   * C​o​n​n​e​c​t​i​o​n​ ​T​e​s​t​:​ ​V​e​r​i​f​i​e​s​ ​t​h​a​t​ ​y​o​u​r​ ​a​p​p​l​i​c​a​t​i​o​n​ ​c​a​n​ ​c​o​n​n​e​c​t​ ​t​o​ ​t​h​e​ ​S​M​T​P​ ​s​e​r​v​e​r​ ​u​s​i​n​g​ ​t​h​e​ ​c​o​n​f​i​g​u​r​e​d​ ​s​e​t​t​i​n​g​s​.
+   */
+  smtpDocumentation1: string;
+  /**
+   * T​e​s​t​ ​E​m​a​i​l​:​ ​S​e​n​d​s​ ​a​n​ ​a​c​t​u​a​l​ ​e​m​a​i​l​ ​t​o​ ​v​e​r​i​f​y​ ​t​h​e​ ​c​o​m​p​l​e​t​e​ ​e​m​a​i​l​ ​d​e​l​i​v​e​r​y​ ​p​i​p​e​l​i​n​e​.
+   */
+  smtpDocumentation2: string;
+  /**
+   * I​f​ ​t​e​s​t​s​ ​f​a​i​l​,​ ​c​h​e​c​k​ ​y​o​u​r​ ​S​M​T​P​ ​s​e​r​v​e​r​ ​s​e​t​t​i​n​g​s​,​ ​a​u​t​h​e​n​t​i​c​a​t​i​o​n​ ​c​r​e​d​e​n​t​i​a​l​s​,​ ​a​n​d​ ​n​e​t​w​o​r​k​ ​c​o​n​n​e​c​t​i​v​i​t​y​.
+   */
+  smtpDocumentation3: string;
 };
 
 export type TranslationFunctions = {
@@ -3354,6 +3590,10 @@ export type TranslationFunctions = {
    * Email
    */
   email: () => LocalizedString;
+  /**
+   * Email Address
+   */
+  emailAddress: () => LocalizedString;
   /**
    * Enter passcode...
    */
@@ -5439,6 +5679,238 @@ export type TranslationFunctions = {
    * GitHub Repository
    */
   githubRepository: () => LocalizedString;
+  /**
+   * Projects
+   */
+  projects: () => LocalizedString;
+  /**
+   * Create Project
+   */
+  projectCreate: () => LocalizedString;
+  /**
+   * Project Key
+   */
+  projectKey: () => LocalizedString;
+  /**
+   * Scope
+   */
+  scope: () => LocalizedString;
+  /**
+   * Created At
+   */
+  createdAt: () => LocalizedString;
+  /**
+   * Project removed successfully
+   */
+  projectRemoveSuccess: () => LocalizedString;
+  /**
+   * Failed to remove project
+   */
+  projectRemoveError: () => LocalizedString;
+  /**
+   * Are you sure you want to remove this project? This action cannot be undone.
+   */
+  removeProjectConfirmText: () => LocalizedString;
+  /**
+   * Remove Project
+   */
+  removeProject: () => LocalizedString;
+  /**
+   * Create Project
+   */
+  modalCreateProject: () => LocalizedString;
+  /**
+   * Update Project
+   */
+  modalUpdateProject: () => LocalizedString;
+  /**
+   * Enter project key (e.g., PROJ)
+   */
+  projectKeyPlaceholder: () => LocalizedString;
+  /**
+   * Enter project name
+   */
+  projectNamePlaceholder: () => LocalizedString;
+  /**
+   * Enter project description (optional)
+   */
+  projectDescriptionPlaceholder: () => LocalizedString;
+  /**
+   * Project key must be 2-10 alphanumeric characters
+   */
+  projectKeyValidationError: () => LocalizedString;
+  /**
+   * 2-10 characters, letters and numbers only
+   */
+  projectKeyHelp: () => LocalizedString;
+  /**
+   * Project Scope
+   */
+  projectScope: () => LocalizedString;
+  /**
+   * Update Project
+   */
+  projectUpdate: () => LocalizedString;
+  /**
+   * Project created successfully
+   */
+  projectCreateSuccess: () => LocalizedString;
+  /**
+   * Project updated successfully
+   */
+  projectUpdateSuccess: () => LocalizedString;
+  /**
+   * Failed to create project
+   */
+  projectCreateError: () => LocalizedString;
+  /**
+   * Failed to update project
+   */
+  projectUpdateError: () => LocalizedString;
+  /**
+   * SMTP Test
+   */
+  smtpTestTitle: () => LocalizedString;
+  /**
+   * Test your SMTP email configuration to ensure emails are being sent properly.
+   */
+  smtpTestDescription: () => LocalizedString;
+  /**
+   * SMTP Configuration
+   */
+  smtpConfiguration: () => LocalizedString;
+  /**
+   * SMTP is enabled
+   */
+  smtpEnabled: () => LocalizedString;
+  /**
+   * SMTP is disabled
+   */
+  smtpDisabled: () => LocalizedString;
+  /**
+   * Email functionality is active and configured.
+   */
+  smtpEnabledDesc: () => LocalizedString;
+  /**
+   * Email functionality is not enabled. Check your server configuration.
+   */
+  smtpDisabledDesc: () => LocalizedString;
+  /**
+   * SMTP is disabled. Email features including password reset, invitations, and notifications will not work.
+   */
+  smtpDisabledWarning: () => LocalizedString;
+  /**
+   * Server Configuration
+   */
+  serverConfiguration: () => LocalizedString;
+  /**
+   * Host
+   */
+  host: () => LocalizedString;
+  /**
+   * Port
+   */
+  port: () => LocalizedString;
+  /**
+   * Secure Connection (TLS/SSL)
+   */
+  secure: () => LocalizedString;
+  /**
+   * Skip TLS Verification
+   */
+  skipTLSVerify: () => LocalizedString;
+  /**
+   * Authentication & Sender
+   */
+  authenticationAndSender: () => LocalizedString;
+  /**
+   * Authentication Type
+   */
+  authType: () => LocalizedString;
+  /**
+   * Username
+   */
+  username: () => LocalizedString;
+  /**
+   * Sender Email
+   */
+  senderEmail: () => LocalizedString;
+  /**
+   * Sender Name
+   */
+  senderName: () => LocalizedString;
+  /**
+   * Show Sensitive
+   */
+  showSensitive: () => LocalizedString;
+  /**
+   * Hide Sensitive
+   */
+  hideSensitive: () => LocalizedString;
+  /**
+   * Refresh
+   */
+  refresh: () => LocalizedString;
+  /**
+   * Refreshing...
+   */
+  refreshing: () => LocalizedString;
+  /**
+   * Connection Test
+   */
+  smtpConnectionTestTitle: () => LocalizedString;
+  /**
+   * Test the SMTP server connection without sending any emails.
+   */
+  smtpConnectionTestDescription: () => LocalizedString;
+  /**
+   * Test Connection
+   */
+  testConnection: () => LocalizedString;
+  /**
+   * Testing...
+   */
+  testing: () => LocalizedString;
+  /**
+   * Clear Results
+   */
+  clearResults: () => LocalizedString;
+  /**
+   * Send Test Email
+   */
+  smtpSendTestEmailTitle: () => LocalizedString;
+  /**
+   * Send a test email to verify that your SMTP configuration is working correctly.
+   */
+  smtpSendTestEmailDescription: () => LocalizedString;
+  /**
+   * Recipient Name
+   */
+  recipientName: () => LocalizedString;
+  /**
+   * Send Test Email
+   */
+  sendTestEmail: () => LocalizedString;
+  /**
+   * Sending...
+   */
+  sending: () => LocalizedString;
+  /**
+   * Configuration Help
+   */
+  smtpDocumentationTitle: () => LocalizedString;
+  /**
+   * Connection Test: Verifies that your application can connect to the SMTP server using the configured settings.
+   */
+  smtpDocumentation1: () => LocalizedString;
+  /**
+   * Test Email: Sends an actual email to verify the complete email delivery pipeline.
+   */
+  smtpDocumentation2: () => LocalizedString;
+  /**
+   * If tests fail, check your SMTP server settings, authentication credentials, and network connectivity.
+   */
+  smtpDocumentation3: () => LocalizedString;
 };
 
 export type Formatters = {};
